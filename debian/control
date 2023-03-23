@@ -8,7 +8,7 @@ Uploaders:
  Roger Shimizu <rosh@debian.org>
 Build-Depends:
  asciidoc-base | asciidoc,
- debhelper (>= 10),
+ debhelper (>= 9), dh-systemd, dh-autoreconf,
  libc-ares-dev,
  libev-dev,
  libmbedtls-dev,
